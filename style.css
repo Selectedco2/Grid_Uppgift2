@@ -1,0 +1,29 @@
+body
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 10vh 15vh 50vh 15vh;
+    gap: 5px;
+}
+.logo
+{
+    justify-content: center;
+    display: flex;
+    border: solid black 2px;
+    
+}
+.skiva
+{
+    height: 100%;
+    width: 35%;
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+    padding-top: 5px;
+    padding-right: 80px;
+}
